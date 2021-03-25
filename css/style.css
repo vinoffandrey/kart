@@ -235,6 +235,10 @@ body {
           transform: rotateY(180deg);
 }
 
+.img__back {
+  background-color: #58aec2;
+}
+
 .img__back_body {
   max-width: 320px;
   margin: 0 auto;
@@ -311,13 +315,20 @@ body {
 
 @media (max-width: 767px) {
   .img__back_text {
-    font-size: calc(14px + 1.8 * ((100vw - 320px) / 1920));
+    font-size: calc(15px + 1.5 * ((100vw - 320px) / 1920));
   }
 }
 
 @media (min-width: 767px) {
   .img__back_text {
-    font-size: calc(14px + 6 * (100vw / 1920));
+    font-size: calc(15px + 5 * (100vw / 1920));
+  }
+}
+
+@media (max-width: 600px) {
+  .img__back_text {
+    line-height: 1.4;
+    letter-spacing: 0.5px;
   }
 }
 
