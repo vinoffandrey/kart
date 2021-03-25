@@ -5,7 +5,6 @@ $(document).ready(function () {
 		speed: 500,
 		easing: 'ease',
 		waitForAnimate: false,
-		infinite: false,
 		responsive: [
 			{
 				breakpoint: 769,
