@@ -224,8 +224,7 @@ body {
 }
 
 .slider__img_back {
-  background: -webkit-gradient(linear, left top, right top, from(#118ba8), color-stop(35%, rgba(17, 139, 168, 0.700718)), color-stop(65%, rgba(17, 139, 168, 0.700718)), to(#118ba8));
-  background: linear-gradient(90deg, #118ba8 0%, rgba(17, 139, 168, 0.700718) 35%, rgba(17, 139, 168, 0.700718) 65%, #118ba8 100%);
+  background-color: #58aec2;
   width: 100%;
   height: 100%;
   top: 0;
